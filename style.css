@@ -1,0 +1,148 @@
+body {
+  background-image: url("img/bkg2.jpg");
+  background-size: cover;
+  color: #0A3871;
+  font-family: "Roboto", sans-serif;
+  border: none;
+}
+
+main{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  align-content: flex-start;
+  font-size: 25px;
+}
+
+.logoAlura{
+  margin-right: 400px;
+}
+
+button{
+  cursor: pointer;
+  height: 35px;
+  width: 200px;
+  background-color: #E5E5E5;
+  border-color: #0A3871;
+  border-radius: 12px;
+  font-size: 16px;
+  color: #0A3871;
+  transition: 0.4s all;
+}
+
+button:hover{
+  transform: scale(1.02);
+  background-color: #0A3871;
+  border-color: #E5E5E5;
+  color: #E5E5E5;
+}
+
+textarea{
+  font-size: 20px;
+  opacity: 0.4;
+  border: none;
+  height: 70px;
+  width: 400px;
+}
+
+.hide {
+  display: none;
+}
+
+.jogo-container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+  
+.forca {
+  fill: transparent;
+  stroke: #0A3871;
+  stroke-width: 4px;
+  stroke-linecap: round;
+}
+  
+.forca-parte {
+  display: none;
+}
+
+  
+.forca-parte {
+  display: none;
+}
+
+.letras-erradas-container {
+  font-size: 32px;
+}
+
+.letras-erradas-container span {
+  margin: 0 2px;
+}
+  
+.palavra-secreta-container {
+  font-size: 45px;
+}
+  
+.aviso-palavra-repetida {
+  background-color: #0A3871;
+  color: #E5E5E5;
+  border-radius: 10px 10px 0 0;
+  padding: 15px 20px;
+  position: absolute;
+  bottom: -55px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.aviso-palavra-repetida p {
+  margin: 10px;
+}
+  
+.aviso-palavra-repetida.show {
+  transform: translateY(-50px);
+}
+  
+.palavra-secreta-container span {
+  margin: 0 5px;
+}
+  
+.popup-container {
+  background-color: rgba(0, 0, 0, 0.85);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /* display: flex; */
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+  
+.popup {
+  background-color: #E5E5E5;
+  color: #0A3871;
+  border-radius: 5px;
+  box-shadow: 0 15px 10px 3px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+}
+  
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 99.4%;
+  color: #0a3871;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: #E5E5E5;
+  opacity: 0.8;
+  width: 99%;
+ }
